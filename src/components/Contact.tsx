@@ -2,7 +2,7 @@ import { Button } from "../ui-components/button";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui-components/card";
 import { Input } from "../ui-components/input";
 import { Textarea } from "../ui-components/textArea";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -28,7 +28,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">your.email@example.com</p>
+                    <p className="text-muted-foreground">igor.aferreirac@gmail.com</p>
                   </div>
                 </div>
                 
@@ -38,7 +38,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+55 (19) 98127-0281</p>
                   </div>
                 </div>
                 
@@ -48,7 +48,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Location</p>
-                    <p className="text-muted-foreground">Your City, Country</p>
+                    <p className="text-muted-foreground">Campinas, São Paulo</p>
                   </div>
                 </div>
               </div>
@@ -57,14 +57,21 @@ export function Contact() {
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-6">Follow Me</h3>
               <div className="flex space-x-4">
-                <Button variant="outline" size="icon">
-                  <Github className="w-5 h-5" />
+                <Button variant="outline" size="icon" >
+                  <a 
+                    href="https://github.com/IgorAugussto"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Github className="w-5 h-5"  />
+                  </a>                  
                 </Button>
                 <Button variant="outline" size="icon">
-                  <Linkedin className="w-5 h-5" />
-                </Button>
-                <Button variant="outline" size="icon">
-                  <Twitter className="w-5 h-5" />
+                  <a 
+                    href="https://www.linkedin.com/in/igor-augusto-5353a8191"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </div>

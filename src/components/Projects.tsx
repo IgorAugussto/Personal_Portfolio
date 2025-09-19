@@ -10,7 +10,7 @@ export function Projects() {
       liveUrl: "#",
       githubUrl: "#"
     },
-    {
+    /*{
       title: "Task Management App",
       description: "A collaborative task management application with team workspaces, real-time updates, and advanced project tracking capabilities.",
       imageUrl: "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3QlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTgxMzQ2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -33,7 +33,7 @@ export function Projects() {
       tags: ["Vue.js", "SCSS", "GSAP", "Netlify"],
       liveUrl: "#",
       githubUrl: "#"
-    }
+    }*/
   ];
 
   return (
@@ -54,7 +54,7 @@ export function Projects() {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        {/*<div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
             Want to see more of my work?
           </p>
@@ -68,7 +68,7 @@ export function Projects() {
               </p>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

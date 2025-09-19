@@ -1,38 +1,40 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../ui-components/card";
+import reactIcon from "../assets/icons/react-original.svg"
+import typeScriptIcon from "../assets/icons/typescript-original.svg"
+import tailWindIcon from "../assets/icons/tailwindcss-original.svg"
+import sassIcon from "../assets/icons/sass-original.svg"
+import javaIcon from "../assets/icons/java-original.svg"
+import springBootIcon from "../assets/icons/spring-original.svg"
+import postgresIcon from "../assets/icons/postgresql-original.svg"
+import dockerIcon from "../assets/icons/docker-original.svg"
+import postmanIcon from "../assets/icons/postman-original.svg"
+import gitIcon from "../assets/icons/git-original.svg"
 
 export function TechStack() {
   const techCategories = [
     {
       title: "Frontend",
       technologies: [
-        { name: "React", icon: "⚛️" },
-        { name: "Vue.js", icon: "💚" },
-        { name: "TypeScript", icon: "🔷" },
-        { name: "Next.js", icon: "⚫" },
-        { name: "Tailwind CSS", icon: "🎨" },
-        { name: "SCSS", icon: "💄" }
+        { name: "React", icon: <img src={reactIcon} alt="React" className="w-6 h-6" /> },
+        { name: "TypeScript", icon: <img src={typeScriptIcon} alt="Type Script" className="w-6 h-6" /> },
+        { name: "Tailwind CSS", icon: <img src={tailWindIcon} alt="Tailwind" className="w-6 h-6" /> },
+        { name: "SCSS", icon: <img src={sassIcon} alt="SCSS" className="w-6 h-6" /> }
       ]
     },
     {
       title: "Backend",
       technologies: [
-        { name: "Node.js", icon: "💚" },
-        { name: "Python", icon: "🐍" },
-        { name: "Express", icon: "🚂" },
-        { name: "Django", icon: "🎸" },
-        { name: "PostgreSQL", icon: "🐘" },
-        { name: "MongoDB", icon: "🍃" }
+        { name: "Java", icon: <img src={javaIcon} alt="Java" className="w-6 h-6" /> },
+        { name: "Spring Boot", icon: <img src={springBootIcon} alt="Spring Boot" className="w-6 h-6" /> },
+        { name: "PostgreSQL", icon: <img src={postgresIcon} alt="PostgreSQL" className="w-6 h-6" /> },
       ]
     },
     {
       title: "Tools & Others",
       technologies: [
-        { name: "Git", icon: "📝" },
-        { name: "Docker", icon: "🐋" },
-        { name: "AWS", icon: "☁️" },
-        { name: "Figma", icon: "🎨" },
-        { name: "Webpack", icon: "📦" },
-        { name: "Jest", icon: "🧪" }
+        { name: "Git", icon: <img src={gitIcon} alt="Git" className="w-6 h-6" /> },
+        { name: "Docker", icon: <img src={dockerIcon} alt="Docker" className="w-6 h-6" /> },
+        { name: "Postman", icon: <img src={postmanIcon} alt="Postman" className="w-6 h-6" /> },
       ]
     }
   ];
@@ -72,7 +74,7 @@ export function TechStack() {
           ))}
         </div>
         
-        <div className="text-center">
+        {/*<div className="text-center">
           <div className="bg-muted/50 rounded-lg p-8 border-2 border-dashed border-border max-w-2xl mx-auto">
             <p className="text-sm text-muted-foreground mb-4">
               🛠️ Add your tech stack images here
@@ -81,7 +83,7 @@ export function TechStack() {
               Replace the emoji icons above with actual technology logos and screenshots of your preferred tools
             </p>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

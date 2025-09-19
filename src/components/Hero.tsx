@@ -1,4 +1,5 @@
 import { Button } from "../ui-components/button";
+import minhaFoto from '../assets/download.png'
 
 export function Hero() {
   return (
@@ -8,17 +9,18 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                Hi, I'm <span className="text-primary">Your Name</span>
+                Hi, I'm <span className="text-primary">Igor Augusto</span>
               </h1>
               <h2 className="text-xl text-muted-foreground">
-                Full Stack Developer & UI/UX Designer
+                Full Stack Developer
               </h2>
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm passionate about creating beautiful, functional, and user-centered digital experiences. 
-              With expertise in modern web technologies, I bring ideas to life through clean code and 
-              thoughtful design.
+              I build robust backend solutions with Java expertise and craft modern frontend experiences, as showcased in this
+              portfolio site I developed. With a Systems Analysis and Development degree from UniCesumar and Java Developer 
+              certifications, I bring a solid technical base. Currently, I’m enhancing my full-stack skills through the EBAC
+              Full Stack course, eager to tackle challenging projects and expand my evolving portfolio.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -35,7 +37,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-secondary/30 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full bg-muted flex items-center justify-center text-muted-foreground">
-                  Profile Photo
+                  <img src={minhaFoto} alt="Minha Foto" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
             </div>
