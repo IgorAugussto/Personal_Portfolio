@@ -1,0 +1,71 @@
+[33mcommit 49ca85aa5501bea9a5abe1a6633dd915bb065021[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 17:30:26 2025 -0300
+
+    Forçar atualização do mvnw com permissão de execução e conteúdo modificado
+
+[33mcommit 074acf466bc25f365726a3fd44685e1d3fd04e28[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 17:02:47 2025 -0300
+
+    Subindo arquivo para fazer o deploy
+
+[33mcommit cd56c18cd6fecdbe7f7f2da6b58dd1c4e249b58f[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 16:13:11 2025 -0300
+
+    .
+
+[33mcommit 9ee3e59137d5bbacdc3463b667f6ea5c89acc317[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 16:11:37 2025 -0300
+
+    Subindo para o repostório sem o apllication-seret.properties
+
+[33mcommit e053efb035335553b581e858a6004dd6a954bab0[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 16:08:54 2025 -0300
+
+    Excluindo arquivos sensiveis do repositório
+
+[33mcommit c5506d2b02d6616bfd4836a32ba26ac4f96b23ed[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 16:03:23 2025 -0300
+
+    Exlcuindo arquivo sensiveis
+
+[33mcommit b01f0878b6637449177770a21d33c6d59a4b092d[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 15:56:20 2025 -0300
+
+    Alterando as variaveis de ambiente para deixar esses arquivos de forma mais segura
+
+[33mcommit 6944eb184e99a2949571ada72c6d2a9e9edb6cde[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 11:28:00 2025 -0300
+
+    Subindo teste unitarios
+
+[33mcommit 4f24e148bbf01853ee0891163a48c9e4125c7e74[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Mon Sep 22 10:55:32 2025 -0300
+
+    Subindo API de comunicação para envio de email. Ser consumido pelo front
+
+[33mcommit bc7080e499e6c5dd4d89e20102e6594f0a3299fd[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Fri Sep 19 12:38:43 2025 -0300
+
+    Atualizando organização de pastas
+
+[33mcommit c698c3423dd7a0b8472cf0c420624126585953b4[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Fri Sep 19 03:40:43 2025 -0300
+
+    Subindo os seguintes componentes: Contact, Footer, Header, Hero, Projects e Tech Stack. Foram adicionado também algumas imagens para as stacks e uma melhor funcionalidade para utilização por mobile
+
+[33mcommit 92290c9524e026ffb5a266a8683c8dbbf6683311[m
+Author: Igor Augusto <igor-augustofc@hotmail.com>
+Date:   Thu Sep 18 19:29:13 2025 -0300
+
+    Subindo meu portifólio de forma bem inicial, com nome e textos padrões
