@@ -33,4 +33,5 @@ build/
 .vscode/
 
 # Ignorar arquivos de configuração sensíveis
-/api-email/application-secret.properties
+Back-End/api-email/application-secret.properties
+
