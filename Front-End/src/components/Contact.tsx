@@ -1,12 +1,12 @@
 import { Button } from "../ui-components/button";
-import {
+{/*import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from "../ui-components/card";
 import { Input } from "../ui-components/input";
-import { Textarea } from "../ui-components/textArea";
+import { Textarea } from "../ui-components/textArea";*/}
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 export function Contact() {
@@ -64,6 +64,9 @@ export function Contact() {
               </div>
             </div>
 
+            
+          </div>
+          <div>
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-6">
                 Follow Me
@@ -99,70 +102,6 @@ export function Contact() {
               </div>
             </div>
           </div>
-
-          <Card className="border-border/50">
-            <CardHeader>
-              <CardTitle>Send Message</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label
-                    htmlFor="firstName"
-                    className="block text-sm font-medium text-foreground mb-2"
-                  >
-                    First Name
-                  </label>
-                  <Input id="firstName" placeholder="John" />
-                </div>
-                <div>
-                  <label
-                    htmlFor="lastName"
-                    className="block text-sm font-medium text-foreground mb-2"
-                  >
-                    Last Name
-                  </label>
-                  <Input id="lastName" placeholder="Doe" />
-                </div>
-              </div>
-
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
-                  Email
-                </label>
-                <Input id="email" type="email" placeholder="john@example.com" />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="subject"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
-                  Subject
-                </label>
-                <Input id="subject" placeholder="Project Inquiry" />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
-                  Message
-                </label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell me about your project..."
-                  className="min-h-[120px]"
-                />
-              </div>
-
-              <Button className="w-full">Send Message</Button>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
