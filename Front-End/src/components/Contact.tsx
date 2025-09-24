@@ -36,9 +36,9 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">
+                    <a className="text-muted-foreground hoover:underline" href="mailto:igor.aferreirac@gmail.com">
                       igor.aferreirac@gmail.com
-                    </p>
+                    </a>
                   </div>
                 </div>
 
