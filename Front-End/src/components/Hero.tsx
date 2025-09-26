@@ -1,4 +1,3 @@
-import { Button } from "../ui-components/button";
 import minhaFoto from '../assets/download.png'
 
 export function Hero() {
@@ -22,15 +21,6 @@ export function Hero() {
               certifications, I bring a solid technical base. Currently, I’m enhancing my full-stack skills through the EBAC
               Full Stack course, eager to tackle challenging projects and expand my evolving portfolio.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="w-full sm:w-auto">
-                View My Work
-              </Button>
-              <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                Get In Touch
-              </Button>
-            </div>
           </div>
           
           <div className="flex justify-center">
