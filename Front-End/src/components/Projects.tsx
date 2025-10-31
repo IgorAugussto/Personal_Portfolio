@@ -1,27 +1,30 @@
 import { ProjectCard } from "../ui-components/ProjectCard";
+import dioImageDemo from "../assets/Gemini_Generated_Image_gqk9n3gqk9n3gqk9.png";
+import orgaizerImage from "../assets/Organizer.png";
+import financial from "../assets/Financial.png";
 
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
+      title: "Financial Organizer",
       description: "A modern analytics dashboard for e-commerce businesses with real-time data visualization, sales tracking, and inventory management features.",
-      imageUrl: "https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU4MDY3MDY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: financial,
       tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    /*{
-      title: "Task Management App",
-      description: "A collaborative task management application with team workspaces, real-time updates, and advanced project tracking capabilities.",
-      imageUrl: "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3QlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTgxMzQ2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Next.js", "Node.js", "MongoDB", "Socket.io"],
-      liveUrl: "#",
+      liveUrl: "https://.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
       githubUrl: "#"
     },
     {
-      title: "Mobile Banking App",
+      title: "Mobile DioDemo App",
+      description: "Aplicativo mobile com autenticação biométrica, histórico de transações e transferências rápidas.",
+      imageUrl: dioImageDemo,
+      tags: ["React Native", "Firebase", "Redux"],
+      liveUrl: "https://www.youtube.com/watch?v=SEU_VIDEO_ID",
+      githubUrl: "https://github.com/seuusuario/seu-projeto-mobile"
+    },
+    {
+      title: "DokaPlanner",
       description: "A secure mobile banking interface with biometric authentication, transaction history, and seamless money transfer functionality.",
-      imageUrl: "https://images.unsplash.com/photo-1707836916010-3c4ad261936c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBzbWFydHBob25lfGVufDF8fHx8MTc1ODEzNDYyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: orgaizerImage,
       tags: ["React Native", "Firebase", "Redux", "Stripe API"],
       liveUrl: "#",
       githubUrl: "#"
@@ -33,7 +36,7 @@ export function Projects() {
       tags: ["Vue.js", "SCSS", "GSAP", "Netlify"],
       liveUrl: "#",
       githubUrl: "#"
-    }*/
+    }
   ];
 
   return (
