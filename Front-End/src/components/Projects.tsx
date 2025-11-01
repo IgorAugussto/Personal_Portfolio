@@ -6,37 +6,30 @@ import financial from "../assets/Financial.png";
 export function Projects() {
   const projects = [
     {
-      title: "Financial Organizer",
-      description: "A modern analytics dashboard for e-commerce businesses with real-time data visualization, sales tracking, and inventory management features.",
-      imageUrl: financial,
-      tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-      liveUrl: "https://.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
-      githubUrl: "#"
+      title: "DokaPlanner",
+      description: "Sistema inteligente para agendamento de salas de reunião.Com ele, o usuário escolheS qual sala usar, quando e por quanto tempo, evitando conflitos e garantindo melhor gestão do espaço. Ideal para empresas que precisam otimizar recursos e manter tudo sob controle.",
+      imageUrl: orgaizerImage,
+      tags: ["Java", "Postman", "Docker", "Spring Boot", "PostgreSQL"],
+      liveUrl: "https://app.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
+      githubUrl: "https://github.com/IgorAugussto/Domus_BackEnd"
     },
     {
       title: "Mobile DioDemo App",
-      description: "Aplicativo mobile com autenticação biométrica, histórico de transações e transferências rápidas.",
+      description: "Protótipo de um aplicativo mobile inspirado na plataforma DIO.me, focado em facilitar o acesso aos cursos fora do desktop.O app permite acompanhar progresso, visualizar aulas e navegar entre os cursos de forma prática — explorando como seria a experiência oficial da plataforma em dispositivos móveis.",
       imageUrl: dioImageDemo,
-      tags: ["React Native", "Firebase", "Redux"],
-      liveUrl: "https://www.youtube.com/watch?v=SEU_VIDEO_ID",
-      githubUrl: "https://github.com/seuusuario/seu-projeto-mobile"
+      tags: ["Java", "Dart"],
+      liveUrl: "https://www.youtube.com/shorts/HH5RAKLyQ-w",
+      githubUrl: "https://github.com/IgorAugussto/App_Dio"
     },
     {
-      title: "DokaPlanner",
-      description: "A secure mobile banking interface with biometric authentication, transaction history, and seamless money transfer functionality.",
-      imageUrl: orgaizerImage,
-      tags: ["React Native", "Firebase", "Redux", "Stripe API"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative work with smooth animations, optimized performance, and modern design principles.",
-      imageUrl: "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3QlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTgxMzQ2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Vue.js", "SCSS", "GSAP", "Netlify"],
-      liveUrl: "#",
-      githubUrl: "#"
-    }
+      title: "Financial Organizer",
+      description: "Aplicativo criado para organizar a vida financeira de pessoas e famíliasPermite registrar entradas, saídas e visualizar a saúde financeira do mês de forma clara, ajudando no controle de gastos e no alcance de metas.",
+      imageUrl: financial,
+      tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js", "Java", "Spring Boot", "Docker", "Postman", "PostgreSQL"],
+      liveUrl: "https://youtube.com/shorts/HH5RAKLyQ-w?si=7K4XLXEAnq7MBd-E",
+      githubUrl: "https://github.com/IgorAugussto/Domus_BackEnd",
+      comingSoon: true
+    }    
   ];
 
   return (
