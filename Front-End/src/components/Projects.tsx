@@ -7,7 +7,7 @@ export function Projects() {
   const projects = [
     {
       title: "DokaPlanner",
-      description: "Sistema inteligente para agendamento de salas de reunião.Com ele, o usuário escolheS qual sala usar, quando e por quanto tempo, evitando conflitos e garantindo melhor gestão do espaço. Ideal para empresas que precisam otimizar recursos e manter tudo sob controle.",
+      description: "Intelligent system for meeting room scheduling. With it, users can choose which room to use, when, and for how long — avoiding conflicts and ensuring better space management. Ideal for companies that need to optimize resources and keep everything under control.",
       imageUrl: orgaizerImage,
       tags: ["Java", "Postman", "Docker", "Spring Boot", "PostgreSQL"],
       liveUrl: "https://app.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
@@ -15,7 +15,7 @@ export function Projects() {
     },
     {
       title: "Mobile DioDemo App",
-      description: "Protótipo de um aplicativo mobile inspirado na plataforma DIO.me, focado em facilitar o acesso aos cursos fora do desktop.O app permite acompanhar progresso, visualizar aulas e navegar entre os cursos de forma prática — explorando como seria a experiência oficial da plataforma em dispositivos móveis.",
+      description: "Prototype of a mobile application inspired by the DIO.me platform, focused on making course access easier outside the desktop environment. The app allows users to track their progress, watch lessons, and browse through courses in a practical way — exploring what the official platform experience could look like on mobile devices.",
       imageUrl: dioImageDemo,
       tags: ["Java", "Dart"],
       liveUrl: "https://www.youtube.com/shorts/HH5RAKLyQ-w",
@@ -23,7 +23,7 @@ export function Projects() {
     },
     {
       title: "Financial Organizer",
-      description: "Aplicativo criado para organizar a vida financeira de pessoas e famíliasPermite registrar entradas, saídas e visualizar a saúde financeira do mês de forma clara, ajudando no controle de gastos e no alcance de metas.",
+      description: "Application designed to help individuals and families organize their finances. It allows users to record income and expenses, and clearly visualize their monthly financial health — making it easier to control spending and achieve financial goals.",
       imageUrl: financial,
       tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js", "Java", "Spring Boot", "Docker", "Postman", "PostgreSQL"],
       liveUrl: "https://youtube.com/shorts/HH5RAKLyQ-w?si=7K4XLXEAnq7MBd-E",
