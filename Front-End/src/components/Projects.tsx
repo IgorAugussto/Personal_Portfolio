@@ -7,39 +7,6 @@ import pythonDashboard from "../assets/Python-Chamados.png";
 export function Projects() {
   const projects = [
     {
-<<<<<<< Updated upstream
-      title: "Financial Organizer",
-      description: "A modern analytics dashboard for e-commerce businesses with real-time data visualization, sales tracking, and inventory management features.",
-      imageUrl: financial,
-      tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-      liveUrl: "https://.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
-      githubUrl: "#"
-    },
-    {
-      title: "Mobile DioDemo App",
-      description: "Aplicativo mobile com autenticação biométrica, histórico de transações e transferências rápidas.",
-      imageUrl: dioImageDemo,
-      tags: ["React Native", "Firebase", "Redux"],
-      liveUrl: "https://www.youtube.com/watch?v=SEU_VIDEO_ID",
-      githubUrl: "https://github.com/seuusuario/seu-projeto-mobile"
-    },
-    {
-      title: "DokaPlanner",
-      description: "A secure mobile banking interface with biometric authentication, transaction history, and seamless money transfer functionality.",
-      imageUrl: orgaizerImage,
-      tags: ["React Native", "Firebase", "Redux", "Stripe API"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative work with smooth animations, optimized performance, and modern design principles.",
-      imageUrl: "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3QlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTgxMzQ2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Vue.js", "SCSS", "GSAP", "Netlify"],
-      liveUrl: "#",
-      githubUrl: "#"
-    }
-=======
       title: "DokaPlanner",
       description:
         "Intelligent system for meeting room scheduling. With it, users can choose which room to use, when, and for how long — avoiding conflicts and ensuring better space management. Ideal for companies that need to optimize resources and keep everything under control.",
@@ -92,11 +59,10 @@ export function Projects() {
         "GitHub Actions",
         "Streamlit Community Cloud",
       ],
-      liveUrl: "https://your-dashboard-app.streamlit.app",
-      githubUrl: "https://github.com/IgorAugussto/Chamados_Geral_ApoioTech",
+      liveUrl: "https://controledechamados-ynsrgiooszunk7vmhmdvfa.streamlit.app/",
+      githubUrl: "https://github.com/IgorAugussto/Controle_de_Chamados",
       comingSoon: false,
     },
->>>>>>> Stashed changes
   ];
 
   return (

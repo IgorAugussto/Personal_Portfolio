@@ -43,13 +43,19 @@ export function ProjectCard({ title, description, imageUrl, tags, liveUrl, githu
         
         <div className="flex gap-3">
           {liveUrl && (
-            <Button variant="outline" size="sm" className="flex-1">
+            <Button variant="outline"
+             size="sm" 
+             className="flex-1 cursor-pointer"
+             onClick={() => window.open(liveUrl, '_blank', 'noopener,noreferrer')}>
               <ExternalLink className="w-4 h-4 mr-2" />
               Live Demo
             </Button>
           )}
           {githubUrl && (
-            <Button variant="outline" size="sm" className="flex-1">
+            <Button variant="outline" 
+            size="sm" 
+            className="flex-1 cursor-pointer"
+            onClick={() => window.open(githubUrl, '_blank', 'noopener,noreferrer')}>
               <Github className="w-4 h-4 mr-2" />
               Code
             </Button>
