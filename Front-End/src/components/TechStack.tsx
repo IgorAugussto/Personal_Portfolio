@@ -9,6 +9,7 @@ import postgresIcon from "../assets/icons/postgresql-original.svg"
 import dockerIcon from "../assets/icons/docker-original.svg"
 import postmanIcon from "../assets/icons/postman-original.svg"
 import gitIcon from "../assets/icons/git-original.svg"
+import amazonIcon from "../assets/icons/amazonwebservices-original-wordmark.svg"
 
 export function TechStack() {
   const techCategories = [
@@ -35,6 +36,7 @@ export function TechStack() {
         { name: "Git", icon: <img src={gitIcon} alt="Git" className="w-6 h-6" /> },
         { name: "Docker", icon: <img src={dockerIcon} alt="Docker" className="w-6 h-6" /> },
         { name: "Postman", icon: <img src={postmanIcon} alt="Postman" className="w-6 h-6" /> },
+        { name: "AWS", icon: <img src={amazonIcon} alt="AWS" className="w-6 h-6" /> }
       ]
     }
   ];
