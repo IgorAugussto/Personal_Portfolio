@@ -1,6 +1,7 @@
 import { ProjectCard } from "../ui-components/ProjectCard";
 import dioImageDemo from "../assets/Gemini_Generated_Image_gqk9n3gqk9n3gqk9.png";
 import financial from "../assets/Financial.png";
+import pythonDashboard from "../assets/Python-Chamados.png";
 
 export function Projects() {
   const projects = [
@@ -39,16 +40,17 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and experience in web development and design.
+            Here are some of my recent projects that showcase my skills and
+            experience in web development and design.
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
         </div>
-        
+
         {/*<div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
             Want to see more of my work?
