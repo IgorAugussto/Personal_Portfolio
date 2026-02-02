@@ -1,17 +1,16 @@
 import { ProjectCard } from "../ui-components/ProjectCard";
 import dioImageDemo from "../assets/Gemini_Generated_Image_gqk9n3gqk9n3gqk9.png";
-import orgaizerImage from "../assets/Organizer.png";
 import financial from "../assets/Financial.png";
 
 export function Projects() {
   const projects = [
     {
-      title: "DokaPlanner",
-      description: "Intelligent system for meeting room scheduling. With it, users can choose which room to use, when, and for how long — avoiding conflicts and ensuring better space management. Ideal for companies that need to optimize resources and keep everything under control.",
-      imageUrl: orgaizerImage,
-      tags: ["Java", "Postman", "Docker", "Spring Boot", "PostgreSQL"],
-      liveUrl: "https://app.postman.co/workspace/My-Workspace~78b7820d-76cc-4c0f-8560-cd76327de631/collection/40931996-0f1d784a-5680-4566-8ff1-37fc35d9a9e2?action=share&creator=40931996",
-      githubUrl: "https://github.com/IgorAugussto/Domus_BackEnd"
+      title: "Domus",
+      description: "Personal finance management platform designed to give users full control over their income, expenses, and investments. With Domus, users can track financial activity, visualize monthly and yearly projections, and gain insights into net worth and savings rate — all through a secure, modern, and intuitive interface. Built for people who want clarity, organization, and smarter financial decisions.",
+      imageUrl: financial,
+      tags: ["Java", "Spring Boot", "PostgreSQL", "Docker", "AWS", "React", "TypeScript", "Tailwind CSS"],
+      liveUrl: "http://domus-frontend-igoraugusto.s3-website.us-east-2.amazonaws.com/login",
+      githubUrl: "https://github.com/IgorAugussto/Domus"
     },
     {
       title: "Mobile DioDemo App",
@@ -21,7 +20,7 @@ export function Projects() {
       liveUrl: "https://www.youtube.com/shorts/HH5RAKLyQ-w",
       githubUrl: "https://github.com/IgorAugussto/App_Dio"
     },
-    {
+    /*{
       title: "Financial Organizer",
       description: "Application designed to help individuals and families organize their finances. It allows users to record income and expenses, and clearly visualize their monthly financial health — making it easier to control spending and achieve financial goals.",
       imageUrl: financial,
@@ -29,7 +28,7 @@ export function Projects() {
       liveUrl: "https://youtube.com/shorts/HH5RAKLyQ-w?si=7K4XLXEAnq7MBd-E",
       githubUrl: "https://github.com/IgorAugussto/Domus_BackEnd",
       comingSoon: true
-    }    
+    }*/    
   ];
 
   return (
