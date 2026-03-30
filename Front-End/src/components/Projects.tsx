@@ -1,7 +1,6 @@
 import { ProjectCard } from "../ui-components/ProjectCard";
 import dioImageDemo from "../assets/Gemini_Generated_Image_gqk9n3gqk9n3gqk9.png";
 import financial from "../assets/Financial.png";
-import pythonDashboard from "../assets/Python-Chamados.png";
 
 export function Projects() {
   const projects = [
@@ -10,7 +9,7 @@ export function Projects() {
       description: "Personal finance management platform designed to give users full control over their income, expenses, and investments. With Domus, users can track financial activity, visualize monthly and yearly projections, and gain insights into net worth and savings rate — all through a secure, modern, and intuitive interface. Built for people who want clarity, organization, and smarter financial decisions.",
       imageUrl: financial,
       tags: ["Java", "Spring Boot", "PostgreSQL", "Docker", "AWS", "React", "TypeScript", "Tailwind CSS"],
-      liveUrl: "http://domus-frontend-igoraugusto.s3-website.us-east-2.amazonaws.com/login",
+      liveUrl: "https://domus-front-end.vercel.app/login",
       githubUrl: "https://github.com/IgorAugussto/Domus"
     },
     {
